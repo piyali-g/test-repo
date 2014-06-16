@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 5.235 sec <<< FAILURE!
+tearDown(com.photon.phresco.testcases.WelcomePageTestCase)  Time elapsed: 62 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.photon.phresco.testcases.WelcomePageTestCase.tearDown(WelcomePageTestCase.java:109)
+
+tearDown(com.photon.phresco.testcases.WelcomePageTestCase)  Time elapsed: 62 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.photon.phresco.testcases.WelcomePageTestCase.tearDown(WelcomePageTestCase.java:109)
+
+tearDown(com.photon.phresco.testcases.WelcomePageTestCase)  Time elapsed: 109 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.photon.phresco.testcases.WelcomePageTestCase.tearDown(WelcomePageTestCase.java:109)
+
+tearDown(com.photon.phresco.testcases.WelcomePageTestCase)  Time elapsed: 47 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.photon.phresco.testcases.WelcomePageTestCase.tearDown(WelcomePageTestCase.java:109)
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1130" lt="0" ts="1399629711633" s="false" lb="HelloWorld" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="HTML5Widget_FrameWork 1-1" dt="text" by="1681"/>
+
+</testResults>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mojos>
+    <mojo>
+        <goal>pdf-report</goal>
+        <description>Goal which generates pdf report for the project</description>
+        <requiresDirectInvocation>false</requiresDirectInvocation>
+        <requiresProject>true</requiresProject>
+        <requiresReports>false</requiresReports>
+        <aggregator>false</aggregator>
+        <requiresOnline>false</requiresOnline>
+        <inheritedByDefault>true</inheritedByDefault>
+        <implementation>
+            <dependency>
+                <groupId>com.photon.phresco.plugins</groupId>
+                <artifactId>report-phresco-plugin</artifactId>
+                <type>jar</type>
+                <version>3.3.1.8001-SNAPSHOT</version>
+                <class>com.photon.phresco.plugins.ReportPlugin</class>
+            </dependency>
+        </implementation>
+        <language>java</language>
+        <instantiationStrategy>per-lookup</instantiationStrategy>
+        <executionStrategy>once-per-session</executionStrategy>
+        <threadSafe>false</threadSafe>
+        <configuration>
+            <parameters>
+                <parameter>
+                    <name>
+                        <value lang="en">Report Type</value>
+                    </name>
+                    <type>List</type>
+                    <required>false</required>
+                    <editable>true</editable>
+                    <description></description>
+                    <key>reportType</key>
+                    <possibleValues>
+                        <value key="crisp">Overall</value>
+                        <value key="detail">Detailed</value>
+                    </possibleValues>
+                    <multiple>false</multiple>
+                    <value>crisp</value>
+                    <sort>false</sort>
+                    <show>true</show>
+                </parameter>
+                <parameter>
+                    <name>
+                        <value lang="en">Pdf Report Name</value>
+                    </name>
+                    <type>String</type>
+                    <required>true</required>
+                    <editable>true</editable>
+                    <description></description>
+                    <key>reportName</key>
+                    <multiple>false</multiple>
+                    <value></value>
+                    <sort>false</sort>
+                    <show>true</show>
+                </parameter>
+                <parameter>
+                    <name>
+                        <value lang="en">Test Type</value>
+                    </name>
+                    <type>Hidden</type>
+                    <required>false</required>
+                    <editable>true</editable>
+                    <description></description>
+                    <key>testType</key>
+                    <multiple>false</multiple>
+                    <value>All</value>
+                    <sort>false</sort>
+                    <show>false</show>
+                </parameter>
+                <parameter>
+                    <name>
+                        <value lang="en">Sonar Url</value>
+                    </name>
+                    <type>Hidden</type>
+                    <required>false</required>
+                    <editable>true</editable>
+                    <description></description>
+                    <key>sonarUrl</key>
+                    <multiple>false</multiple>
+                    <value>http://localhost:9000/sonar/dashboard</value>
+                    <sort>false</sort>
+                    <show>false</show>
+                </parameter>
+                <parameter>
+                    <name>
+                        <value lang="en">Logo</value>
+                    </name>
+                    <type>Hidden</type>
+                    <required>false</required>
+                    <editable>true</editable>
+                    <description></description>
+                    <key>logo</key>
+                    <multiple>false</multiple>
+                    <value>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</value>
+                    <sort>false</sort>
+                    <show>false</show>
+                </parameter>
+                <parameter>
+                    <name>
+                        <value lang="en">Theme</value>
+                    </name>
+                    <type>Hidden</type>
+                    <required>false</required>
+                    <editable>true</editable>
+                    <description></description>
+                    <key>theme</key>
+                    <multiple>false</multiple>
+                    <value>{&quot;consoleHeaderColor&quot;:&quot;&quot;,&quot;editNavigationActiveBackGroundTop&quot;:&quot;#a8a8a8&quot;,&quot;copyRightLabel&quot;:&quot;©2014.Photon Interactive Pvt Ltd. | \u003ca href\u003d\&quot;http://www.photon.in\&quot; target\u003d\&quot;_blank\&quot;\u003ewww.photon.in\u003c/a\u003e&quot;,&quot;bottomButtonPanelTop&quot;:&quot;#ededed&quot;,&quot;pageLogoPadding&quot;:&quot;&quot;,&quot;editNavigationLink&quot;:&quot;#1a1a1a&quot;,&quot;buttonBackGroundColor&quot;:&quot;#ed7940&quot;,&quot;loginLogoMargin&quot;:&quot;&quot;,&quot;pageTitleBackGroundBottom&quot;:&quot;#d2d2d2&quot;,&quot;pageTitleColor&quot;:&quot;#1a1a1a&quot;,&quot;headerLinkColor&quot;:&quot;#FFFFFF&quot;,&quot;footerBackGroundcolorTop&quot;:&quot;#3e3e3e&quot;,&quot;pageTitleBackGroundTop&quot;:&quot;#EEEEEE&quot;,&quot;welcomeUserIcon&quot;:&quot;0px&quot;,&quot;projectTitleBackGroundColorTop&quot;:&quot;&quot;,&quot;projectTitleBackGroundColorBottom&quot;:&quot;&quot;,&quot;headerBackGroundcolorBottom&quot;:&quot;#1b1b1b&quot;,&quot;editNavigationActiveBackGroundBottom&quot;:&quot;#5d5d5d&quot;,&quot;bottomButtonPanelBottom&quot;:&quot;#d1d1d1&quot;,&quot;customerTitle&quot;:&quot;Phresco&quot;,&quot;headerBackGroundcolorTop&quot;:&quot;#3E3E3E&quot;,&quot;tableheaderBackGroundcolorBottom&quot;:&quot;&quot;,&quot;tableheaderBackGroundcolorTop&quot;:&quot;&quot;,&quot;headerActiveLinkColor&quot;:&quot;#FF844A&quot;,&quot;copyrightLabelColor&quot;:&quot;&quot;,&quot;footerBackGroundcolorBottom&quot;:&quot;#1d1d1d&quot;,&quot;customerBaseColor&quot;:&quot;#E15432&quot;}</value>
+                    <sort>false</sort>
+                    <show>false</show>
+                </parameter>
+                <parameter>
+                    <name>
+                        <value lang="en">Technology Name</value>
+                    </name>
+                    <type>Hidden</type>
+                    <required>false</required>
+                    <editable>true</editable>
+                    <description></description>
+                    <key>technologyName</key>
+                    <multiple>false</multiple>
+                    <value>mobile-web</value>
+                    <sort>false</sort>
+                    <show>false</show>
+                </parameter>
+            </parameters>
+        </configuration>
+    </mojo>
+</mojos>

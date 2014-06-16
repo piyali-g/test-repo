@@ -1,0 +1,45 @@
+2014/05/09 15:31:52 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2014/05/09 15:31:52 INFO  - kg.apc.jmeter.PluginsCMDWorker: Loading user properties from: C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\target\jmeter\bin\user.properties 
+2014/05/09 15:31:52 INFO  - kg.apc.jmeter.PluginsCMDWorker: Loading system properties from: C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\target\jmeter\bin\system.properties 
+2014/05/09 15:31:55 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/05/09 15:31:55 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/05/09 15:31:55 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1427507 
+2014/05/09 15:31:55 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.4 
+2014/05/09 15:31:55 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2014/05/09 15:31:56 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2014/05/09 15:31:56 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2014/05/09 15:31:56 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2014/05/09 15:31:56 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2014/05/09 15:31:56 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:56 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:56 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-ThreadsStateOverTime.png 
+2014/05/09 15:31:56 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:56 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:56 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:56 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-BytesThroughputOverTime.png 
+2014/05/09 15:31:56 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:56 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:56 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-HitsPerSecond.png 
+2014/05/09 15:31:57 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:57 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:57 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:57 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-LatenciesOverTime.png 
+2014/05/09 15:31:57 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:58 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:58 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-ResponseCodesPerSecond.png 
+2014/05/09 15:31:58 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:58 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-ResponseTimesDistribution.png 
+2014/05/09 15:31:58 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:58 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:58 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:58 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-ResponseTimesOverTime.png 
+2014/05/09 15:31:58 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:58 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-ResponseTimesPercentiles.png 
+2014/05/09 15:31:59 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:59 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-ThroughputVsThreads.png 
+2014/05/09 15:31:59 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:59 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-TimesVsThreads.png 
+2014/05/09 15:31:59 WARN  - kg.apc.jmeter.PluginsCMDWorker: JMeter env exists. No one should see this normally. 
+2014/05/09 15:31:59 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:59 WARN  - kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer: No GUI Package present, ignored adding to composite 
+2014/05/09 15:31:59 INFO  - kg.apc.charting.GraphPanelChart: Saving PNG to C:\Documents and Settings\piyali_g\workspace\projects\module1\module3\test\performance\server\results\jmeter\graphs\JqueryMobile-TransactionsPerSecond.png 
